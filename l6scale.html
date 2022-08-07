@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <title>CSS Scale</title>
+
+        <style type="text/css">
+
+            img{
+                width:10%;
+                margin-top:50px;
+                display:block;
+                margin:auto;
+                transition-duration:5s;
+            }
+
+            img:hover{
+                /*transform:scale(2);*/ /* both x and y */
+
+                /* transform:scaleX(2); */ /* y is constant, only expand x */
+
+                /* transform:scaleY(2); */ /* x is constant, only expand y */
+
+                /* transform:scaleX(2) scaleY(3); */ /* set the way u like */
+
+                             /* x,y  */
+                transform:scale(3,2);
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <img src="./img/theone.jpg" alt="theone"/>
+
+    </body>
+
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>CSS Translate</title>
+
+        <style type="text/css">
+            img{
+                width:300px;
+                display:block;
+                margin-top:50px;
+                margin:auto;
+                transition-duration:5s;
+            }
+
+            img:hover{
+                /* transform:translate(500px); */ /*on x*/ /*to right*/
+                /* transform:translate(200%); */ /*on x*/ /* % of img width */
+                /* transform:translate(-200%); */ /*on x*/ /*to left*/
+
+                /* transform:translateX(500px); */ /*on x*/ /*to right*/
+                /* transform:translateX(200%); */ /*on x*/ /* % of img width */
+                /* transform:translate(-200%); */ /*on x*/ /* to left */
+
+                /* transform:translateY(200px); */ /*on y*/ /*to button*/
+                /* transform:translateY(50%); */ /*on y*/ /* % of img height */
+                /* transform:translateY(-50%); */ /*on y*/ /*to up*/
+
+                /* transform:translateX(100px) translateY(100px); */ /*on both x and y*/
+                
+                                    /* x   y  */
+                transform:translate(-50%,-50%);
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <img src="./img/theone.jpg" alt="theone"/>
+    </body>
+
+
+</html>

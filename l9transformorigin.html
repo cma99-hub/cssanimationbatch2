@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Transform Origin</title>
+
+        <style type="text/css">
+
+            img{
+                width: 300px;
+                height:200px;
+                display: block;
+                margin:auto;
+                margin-top:200px;
+
+                transition:all 3s;
+
+                /* transform-origin:top; */ /*center of top*/
+                /* transform-origin:bottom; */ /*center of bottom*/
+                /* transform-origin:left; */ /*center of left*/
+                /* transform-origin:right; */ /*center of right*/
+
+                /* transform-origin:left top; */
+                /* transform-origin:right top; */
+                /* transform-origin:left bottom; */
+                /* transform-origin:right bottom; */
+                
+                /* transform-origin:30% 50%; */
+                transform-origin:100px 50px;
+
+
+            }
+
+            img:hover{
+                transform:rotate(45deg);
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <img src="./img/theone.jpg" alt="theone" />
+
+    </body>
+
+</html>

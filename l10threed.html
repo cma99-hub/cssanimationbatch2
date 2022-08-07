@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>3D</title>
+
+        <style type="text/css">
+
+            *{
+                perspective: 2000px; /*distance between eye and image, image is at 0px*/
+            }
+
+            img{
+
+                width:300px;
+                display:block;
+                margin:auto;
+                margin-top:200px;
+
+                transition:all 3s;
+
+            }
+
+            img:hover{ 
+                
+                /* transform:translateZ(300px); */
+                /* transform:translateZ(-300px); */
+                /* transform:translateZ(3000px); */
+                transform:translateZ(-3000px);
+                
+    
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <img src="./img/theone.jpg" alt="theone" />
+
+    </body>
+
+
+</html>
